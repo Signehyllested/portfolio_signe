@@ -1,0 +1,108 @@
+/*--- Genrelle indstillinger---*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ede6e1;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    /*
+    font-family: ;
+    font-size: 3rem;
+    color: #4b362f;
+*/
+}
+
+
+h2 {
+    /*
+    font-family: ;
+    font-size: 2rem;
+    color: #4b362f;
+*/
+}
+
+h3 {
+    /*
+    font-family: ;
+    font-size: 2rem;
+    color: #4b362f;
+*/
+}
+
+p {
+    /*
+    font-family: ;
+    font-size: 1.2rem;
+    color: #000000;
+*/
+}
+
+/*---Generelle indstillinger  SLUT ---*/
+
+/*--- fælles designregler for alle sektioner ---*/
+
+section {
+    padding: 0 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sectionwrapper {
+    margin-top: 0;
+}
+
+/*--- fælles designregler for alle sektioner SLUT ---*/
+
+/*---Header - burgermenu---*/
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
+/*---Header - burgermenu SLUT---*/
+
+/*--- Splash ---*/
+/*--- Splash SLUT ---*/
+
+/*--- Forside - Om ---*/
+/*--- Forside - slut ---*/
+
+/*--- Forside - Udvalgte projekter---*/
+/*--- Forside - Udvalgte projekter - slut ---*/

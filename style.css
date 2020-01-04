@@ -6,7 +6,6 @@
 
 body {
     margin: 0;
-    background-color: #ede6e1;
 }
 
 img {
@@ -36,10 +35,13 @@ h3 {
 }
 
 p {
-
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
 
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*---Generelle indstillinger  SLUT ---*/
@@ -62,17 +64,18 @@ section {
 
 /*---Header - Logo---*/
 .logo {
-    height: 7vw;
-    width: 14vw;
+    height: 3vw;
+    width: 7vw;
     background-size: cover;
     position: absolute;
-    top: -0.5vw;
-    left: 0vw;
+    top: 1vw;
+    left: 1vw;
 }
 
 /*---Header - burgermenu---*/
+
 .hidden {
-    /*    display: none;*/
+    display: none;
     /*    transform: scale(0);*/
     transform: translateX(-100%);
     opacity: 0;
@@ -81,13 +84,40 @@ section {
 #menuknap {
     display: inline-block;
     color: #ffec00;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 #menu {
     list-style-type: none;
     transition: transform .3s;
-    transform-origin: top left;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+header nav a {
+    font-weight: bold;
+    color: #ffec00;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header nav a:hover {
+    text-decoration: line-through;
+}
+
+header li {
+    text-align: center;
 }
 
 @media only screen and (min-width: 600px) {
@@ -96,19 +126,41 @@ section {
         display: none;
     }
 
-    #menu.hidden {
+    .hidden {
         transform: translateX(0);
         opacity: 1;
+        display: inline-block;
     }
 
-    #menu li {
+    header li {
         display: inline-block;
+        text-align: end;
+        float: right;
+        padding-right: 1rem;
+    }
+
+    header a {
+        color: #ffec00;
+        text-decoration: none;
+    }
+
+    header nav {
+        padding: 1rem;
     }
 }
 
 /*---Header - burgermenu SLUT---*/
 
 /*--- Splash ---*/
+#splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url();
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+}
+
 /*--- Splash SLUT ---*/
 
 /*--- Forside - Om ---*/

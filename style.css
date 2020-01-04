@@ -72,7 +72,6 @@ section {
 .logo {
     height: 4vw;
     width: 10vw;
-    background-size: cover;
     position: absolute;
     top: 1vw;
     left: 1vw;
@@ -161,7 +160,31 @@ footer {
     border-top: 0.5rem solid #ffec00;
 }
 
-footer .some {}
+footer .sectionwrapper {}
+
+footer .ig {
+    background-image: url(assets/ig_sort.svg);
+}
+
+footer .fb {
+    background-image: url(assets/fb_sort.svg);
+}
+
+footer .in {
+    background-image: url(assets/in_sort.svg);
+}
+
+footer .ig:hover {
+    background-image: url(assets/ig.svg);
+}
+
+footer .fb:hover {
+    background-image: url(assets/fb.svg);
+}
+
+footer .in:hover {
+    background-image: url(assets/in.svg);
+}
 
 /*--- Footer -  SLUT---*/
 

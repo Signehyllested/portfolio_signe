@@ -58,6 +58,18 @@ section {
 
 /*--- fælles designregler for alle sektioner SLUT ---*/
 
+
+
+/*---Header - Logo---*/
+.logo {
+    height: 7vw;
+    width: 14vw;
+    background-size: cover;
+    position: absolute;
+    top: -0.5vw;
+    left: 0vw;
+}
+
 /*---Header - burgermenu---*/
 .hidden {
     /*    display: none;*/
@@ -68,6 +80,8 @@ section {
 
 #menuknap {
     display: inline-block;
+    color: #ffec00;
+    margin: 1rem;
 }
 
 #menu {

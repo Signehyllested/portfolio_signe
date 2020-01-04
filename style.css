@@ -34,6 +34,14 @@ h3 {
 
 }
 
+h4 {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+
+
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
@@ -148,6 +156,12 @@ header li {
 
 /*---Header - burgermenu SLUT---*/
 /*--- Footer ---*/
+footer {
+    text-align: center;
+    border-top: 0.5rem solid #ffec00;
+}
+
+footer .some {}
 
 /*--- Footer -  SLUT---*/
 

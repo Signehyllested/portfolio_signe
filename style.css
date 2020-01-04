@@ -62,8 +62,8 @@ section {
 
 /*---Header - Logo---*/
 .logo {
-    height: 3vw;
-    width: 7vw;
+    height: 4vw;
+    width: 10vw;
     background-size: cover;
     position: absolute;
     top: 1vw;
@@ -147,6 +147,9 @@ header li {
 }
 
 /*---Header - burgermenu SLUT---*/
+/*--- Footer ---*/
+
+/*--- Footer -  SLUT---*/
 
 /*--- Splash ---*/
 #splash {
@@ -204,3 +207,19 @@ header li {
 
 /*--- Forside - Udvalgte projekter---*/
 /*--- Forside - Udvalgte projekter - slut ---*/
+
+/*--- Om - hvem er jeg? ---*/
+#om_mig {}
+
+#om_mig .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#om_mig .col {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 0 0.5rem;
+}
+
+/*--- Om - hvem er jeg? - SLUT ---*/

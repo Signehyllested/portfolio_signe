@@ -223,6 +223,15 @@ footer .in {
     max-width: none;
 }
 
+#frugt_splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url();
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+}
+
 /*--- Splash SLUT ---*/
 
 /*--- Forside - Om ---*/

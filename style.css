@@ -160,31 +160,28 @@ footer {
     border-top: 0.5rem solid #ffec00;
 }
 
-footer .sectionwrapper {}
+footer .sectionwrapper {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
 
 footer .ig {
-    background-image: url(assets/ig_sort.svg);
+    width: 4vw;
+    height: 4vw;
 }
 
 footer .fb {
-    background-image: url(assets/fb_sort.svg);
+    width: 4vw;
+    height: 4vw;
 }
 
 footer .in {
-    background-image: url(assets/in_sort.svg);
+    width: 4vw;
+    height: 4vw;
 }
 
-footer .ig:hover {
-    background-image: url(assets/ig.svg);
-}
-
-footer .fb:hover {
-    background-image: url(assets/fb.svg);
-}
-
-footer .in:hover {
-    background-image: url(assets/in.svg);
-}
 
 /*--- Footer -  SLUT---*/
 
@@ -260,3 +257,6 @@ footer .in:hover {
 }
 
 /*--- Om - hvem er jeg? - SLUT ---*/
+/*--- Portfolio - projekter ---*/
+
+/*--- Portfolio - projekter -  SLUT ---*/

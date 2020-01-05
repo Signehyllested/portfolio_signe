@@ -167,6 +167,7 @@ footer .sectionwrapper {
     justify-content: center;
 }
 
+
 footer .ig {
     width: 4vw;
     height: 4vw;
@@ -208,6 +209,15 @@ footer .in {
     width: 100vw;
     height: 100vh;
     background-image: url();
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+}
+
+#stilart_splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(projekter/stilart_site.jpg);
     background-size: cover;
     background-position: 67% 10%;
     max-width: none;
@@ -296,6 +306,32 @@ footer .in {
     flex-basis: 400px;
     flex-grow: 1;
     padding: 0.5rem;
+    cursor: pointer;
+}
+
+#projekter1 img:hover {
+    filter: grayscale(1);
+}
+
+#projekter1 .figcaption {
+    /*
+    background-position: center;
+    background-size: 85%;
+    padding-top: 20%;
+    bottom: 0;
+    top: 0;
+*/
+    position: absolute;
+    text-align: center;
+    transition: 1s;
+
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.figcaption:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
 }
 
 #projekter2 .sectionwrapper {

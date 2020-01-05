@@ -240,6 +240,34 @@ footer .in {
 /*--- Forside - Om slut ---*/
 
 /*--- Forside - Udvalgte projekter---*/
+
+#udvalgte_projekter {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#udvalgte_projekter a {
+    text-decoration: none;
+    color: black;
+}
+
+#udvalgte_projekter a:hover {
+    color: #ffec00;
+}
+
+#udvalgte_projekter .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#udvalgte_projekter .col {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+
 /*--- Forside - Udvalgte projekter - slut ---*/
 
 /*--- Om - hvem er jeg? ---*/
@@ -258,5 +286,50 @@ footer .in {
 
 /*--- Om - hvem er jeg? - SLUT ---*/
 /*--- Portfolio - projekter ---*/
+
+#projekter1 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projekter1 .col {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+#projekter2 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projekter2 .col {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+#projekter3 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projekter3 .col {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 0.5rem;
+
+}
+
+#projekter4 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projekter4 .col {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 0.5rem;
+}
 
 /*--- Portfolio - projekter -  SLUT ---*/

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -205,13 +209,33 @@ footer .in {
     color: #ffec00;
 }
 
-.pil {
-    background-image: url(assets/pil.svg);
+.pil a {
+    background-image: url(assets/pil_1.svg);
     background-size: cover;
-    width: 9vw;
-    height: 6vh;
+    width: 5vw;
+    height: 4vw;
     display: block;
     margin: auto;
+
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse_kf {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(1.2)
+    }
 }
 
 .splash_txt_2 {

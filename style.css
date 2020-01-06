@@ -70,7 +70,7 @@ section {
 
 /*---Header - Logo---*/
 .logo {
-    height: 4vw;
+    height: 4vh;
     width: 10vw;
     position: absolute;
     top: 1vw;
@@ -205,6 +205,15 @@ footer .in {
     color: #ffec00;
 }
 
+.pil {
+    background-image: url(assets/pil.svg);
+    background-size: cover;
+    width: 9vw;
+    height: 6vh;
+    display: block;
+    margin: auto;
+}
+
 .splash_txt_2 {
     position: absolute;
     text-align: left;
@@ -222,15 +231,6 @@ footer .in {
 .splash_txt_2 h3 {
     color: white;
     font-size: 3rem;
-}
-
-#om_splash {
-    width: 100vw;
-    height: 100vh;
-    background-image: url();
-    background-size: cover;
-    background-position: 67% 10%;
-    max-width: none;
 }
 
 #stilart_splash {
@@ -355,17 +355,50 @@ footer .in {
 /*--- Forside - Udvalgte projekter - slut ---*/
 
 /*--- Om - hvem er jeg? ---*/
-#om_mig {}
 
 #om_mig .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 #om_mig .col {
-    flex-basis: 400px;
+    flex-basis: 600px;
     flex-grow: 1;
     padding: 0 0.5rem;
+}
+
+#om_mig .img {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#kompetencer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kompetencer .col {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 0 5rem;
+}
+
+#kompetencer ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    list-style-image: url(assets/prik.svg)
+}
+
+#kompetencer img {
+    width: 20vw;
+    height: 12vh;
+    display: block;
+    margin: auto;
+}
+
+#kompetencer h2 {
+    text-align: center;
 }
 
 /*--- Om - hvem er jeg? - SLUT ---*/
@@ -401,9 +434,6 @@ footer .in {
     left: 0;
     z-index: 99;
 }
-
-
-
 
 
 /*--- Portfolio - projekter -  SLUT ---*/

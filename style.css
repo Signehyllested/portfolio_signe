@@ -205,6 +205,25 @@ footer .in {
     color: #ffec00;
 }
 
+.splash_txt_2 {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #ffec00;
+}
+
+.splash_txt_2 h1 {
+    display: block;
+    font-size: 5rem;
+}
+
+.splash_txt_2 h3 {
+    color: white;
+    font-size: 3rem;
+}
+
 #om_splash {
     width: 100vw;
     height: 100vh;
@@ -217,16 +236,18 @@ footer .in {
 #stilart_splash {
     width: 100vw;
     height: 100vh;
-    background-image: url(projekter/stilart_site.jpg);
+    background-image: url(splash_projekter/stilart.jpg);
     background-size: cover;
     background-position: 67% 10%;
     max-width: none;
+
 }
+
 
 #frugt_splash {
     width: 100vw;
     height: 100vh;
-    background-image: url();
+    background-image: url(splash_projekter/frugtapp.jpg);
     background-size: cover;
     background-position: 67% 10%;
     max-width: none;
@@ -378,3 +399,21 @@ footer .in {
 }
 
 /*--- Portfolio - projekter -  SLUT ---*/
+/*--- Portfolio - Undersider ---*/
+
+.links {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    color: #ffec00;
+}
+
+/*--- Portfolio - Undersider - SLUT ---*/

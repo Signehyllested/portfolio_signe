@@ -240,14 +240,58 @@ footer .in {
     background-size: cover;
     background-position: 67% 10%;
     max-width: none;
-
 }
-
 
 #frugt_splash {
     width: 100vw;
     height: 100vh;
     background-image: url(splash_projekter/frugtapp.jpg);
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+
+}
+
+#keaplan_splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(splash_projekter/keaplan.jpg);
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+}
+
+#spil_splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(splash_projekter/spil.jpg);
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+}
+
+#privatsnak_splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(splash_projekter/privatsnak.jpg);
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+}
+
+#pilotvideo_splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(splash_projekter/pilotvideo.jpg);
+    background-size: cover;
+    background-position: 67% 10%;
+    max-width: none;
+}
+
+#redesign_splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(splash_projekter/redesign.jpg);
     background-size: cover;
     background-position: 67% 10%;
     max-width: none;
@@ -327,76 +371,40 @@ footer .in {
 /*--- Om - hvem er jeg? - SLUT ---*/
 /*--- Portfolio - projekter ---*/
 
-#projekter1 .sectionwrapper {
+#projekter .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
-#projekter1 .col {
+#projekter .col {
     flex-basis: 400px;
     flex-grow: 1;
     padding: 0.5rem;
     cursor: pointer;
 }
 
-#projekter1 img:hover {
-    filter: grayscale(1);
+.wrap .top:hover {
+    opacity: 1;
+
 }
 
-#projekter1 .figcaption {
-    /*
-    background-position: center;
-    background-size: 85%;
-    padding-top: 20%;
-    bottom: 0;
-    top: 0;
-*/
-    position: absolute;
-    text-align: center;
-    transition: 1s;
+.wrap {
+    position: relative;
+    display: inline-block;
+}
 
+.wrap .top {
     opacity: 0;
-    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
-.figcaption:hover {
-    opacity: 0.9;
-    filter: alpha(opacity=90);
-}
 
-#projekter2 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-#projekter2 .col {
-    flex-basis: 400px;
-    flex-grow: 1;
-    padding: 0.5rem;
-}
 
-#projekter3 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#projekter3 .col {
-    flex-basis: 400px;
-    flex-grow: 1;
-    padding: 0.5rem;
-
-}
-
-#projekter4 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#projekter4 .col {
-    flex-basis: 200px;
-    flex-grow: 1;
-    padding: 0.5rem;
-}
 
 /*--- Portfolio - projekter -  SLUT ---*/
 /*--- Portfolio - Undersider ---*/

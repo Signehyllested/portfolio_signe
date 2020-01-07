@@ -193,11 +193,18 @@ footer .in {
 /*--- Splash ---*/
 #splash {
     width: 100vw;
-    height: 100vh;
-    background-image: url();
+    height: 80vh;
     background-size: cover;
     background-position: 67% 10%;
     max-width: none;
+}
+
+#image {
+    position: relative;
+    width: 10vw;
+    height: 4vw;
+    float: left;
+
 }
 
 .splash_txt {

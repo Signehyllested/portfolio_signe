@@ -74,8 +74,8 @@ section {
 
 /*---Header - Logo---*/
 .logo {
-    height: 4vh;
-    width: 10vw;
+    height: 9vh;
+    width: 20vw;
     position: absolute;
     top: 1vw;
     left: 1vw;
@@ -131,32 +131,6 @@ header li {
     text-align: center;
 }
 
-@media only screen and (min-width: 600px) {
-
-    #menu {
-        text-align: end;
-    }
-
-    #menuknap {
-        display: none;
-    }
-
-    .hidden {
-        transform: translateX(0);
-        opacity: 1;
-        display: inline-block;
-    }
-
-    header li {
-        display: inline-block;
-        padding-right: 1rem;
-    }
-
-    header nav {
-        padding: 1rem;
-    }
-}
-
 /*---Header - burgermenu SLUT---*/
 /*--- Footer ---*/
 footer {
@@ -171,20 +145,19 @@ footer .sectionwrapper {
     justify-content: center;
 }
 
-
 footer .ig {
-    width: 4vw;
-    height: 4vw;
+    width: 13vw;
+    height: 13vw;
 }
 
 footer .fb {
-    width: 4vw;
-    height: 4vw;
+    width: 13vw;
+    height: 13vw;
 }
 
 footer .in {
-    width: 4vw;
-    height: 4vw;
+    width: 13vw;
+    height: 13vw;
 }
 
 
@@ -193,7 +166,7 @@ footer .in {
 /*--- Splash ---*/
 #splash {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-position: 67% 10%;
     max-width: none;
@@ -202,9 +175,8 @@ footer .in {
 #image {
     position: relative;
     width: 10vw;
-    height: 4vw;
+    height: 10vw;
     float: left;
-
 }
 
 .splash_txt {
@@ -214,6 +186,25 @@ footer .in {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     color: #ffec00;
+}
+
+.splash_txt_2 {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #ffec00;
+}
+
+.splash_txt_2 h1 {
+    display: block;
+    font-size: 3rem;
+}
+
+.splash_txt_2 h3 {
+    color: white;
+    font-size: 1.6rem;
 }
 
 .pil a {
@@ -243,25 +234,6 @@ footer .in {
     to {
         transform: scale(1.2)
     }
-}
-
-.splash_txt_2 {
-    position: absolute;
-    text-align: left;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    color: #ffec00;
-}
-
-.splash_txt_2 h1 {
-    display: block;
-    font-size: 5rem;
-}
-
-.splash_txt_2 h3 {
-    color: white;
-    font-size: 3rem;
 }
 
 #stilart_splash {
@@ -339,8 +311,8 @@ footer .in {
 
 #om .col {
     padding-top: 1rem;
-    padding-left: 4rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
 }
 
 #om a {
@@ -394,7 +366,7 @@ footer .in {
 }
 
 #om_mig .col {
-    flex-basis: 600px;
+    flex-basis: 400px;
     flex-grow: 1;
     padding: 0 0.5rem;
 }
@@ -402,6 +374,7 @@ footer .in {
 #om_mig .img {
     flex-basis: 300px;
     flex-grow: 1;
+
 }
 
 #kompetencer .sectionwrapper {
@@ -422,8 +395,6 @@ footer .in {
 }
 
 #kompetencer img {
-    width: 20vw;
-    height: 12vh;
     display: block;
     margin: auto;
 }
@@ -486,3 +457,110 @@ footer .in {
 }
 
 /*--- Portfolio - Undersider - SLUT ---*/
+
+/*--- Media QUeries ---*/
+
+@media only screen and (min-width: 600px) {
+
+    #menu {
+        text-align: end;
+    }
+
+    #menuknap {
+        display: none;
+    }
+
+    .hidden {
+        transform: translateX(0);
+        opacity: 1;
+        display: inline-block;
+    }
+
+    .logo {
+        height: 4vh;
+        width: 10vw;
+        position: absolute;
+        top: 1vw;
+        left: 1vw;
+    }
+
+    header li {
+        display: inline-block;
+        padding-right: 1rem;
+    }
+
+    header nav {
+        padding: 1rem;
+    }
+
+    .splash_txt_2 h1 {
+        display: block;
+        font-size: 5rem;
+    }
+
+    .splash_txt_2 h3 {
+        color: white;
+        font-size: 3rem;
+    }
+
+    #om .col {
+        padding-top: 1rem;
+        padding-left: 4rem;
+        padding-right: 3rem;
+    }
+
+    #om_mig .col {
+        flex-basis: 600px;
+        flex-grow: 1;
+        padding: 0 0.5rem;
+    }
+
+    #om_mig .img {
+        flex-basis: 200px;
+        flex-grow: 1;
+    }
+
+    #kompetencer img {
+        width: 25vw;
+        height: 17vw;
+        display: block;
+        margin: auto;
+    }
+
+    footer .ig {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    footer .fb {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    footer .in {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #image {
+        position: relative;
+        width: 5vw;
+        height: 5vw;
+        float: left;
+
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    #kompetencer img {
+        width: 20vw;
+        height: 13vw;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {}

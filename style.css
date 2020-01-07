@@ -406,6 +406,11 @@ footer .in {
 /*--- Om - hvem er jeg? - SLUT ---*/
 /*--- Portfolio - projekter ---*/
 
+#projekter {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 #projekter .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -435,6 +440,10 @@ footer .in {
     top: 0;
     left: 0;
     z-index: 99;
+}
+
+#projekter .hidden {
+    display: none;
 }
 
 
@@ -547,12 +556,8 @@ footer .in {
         width: 5vw;
         height: 5vw;
         float: left;
-
     }
-
-
 }
-
 
 @media only screen and (min-width: 1200px) {
     #kompetencer img {
@@ -563,4 +568,8 @@ footer .in {
     }
 }
 
-@media only screen and (min-width: 1000px) {}
+@media only screen and (min-width: 1000px) {
+    #projekter .hidden {
+        display: flex;
+    }
+}

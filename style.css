@@ -93,7 +93,7 @@ section {
 #menuknap {
     display: inline-block;
     color: #ffec00;
-    margin: 0.5rem;
+    margin: 0.6rem;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -250,7 +250,7 @@ footer .in {
     height: 100vh;
     background-image: url(splash_projekter/frugtapp.jpg);
     background-size: cover;
-    background-position: 67% 10%;
+    background-position: 90% 10%;
     max-width: none;
 
 }
@@ -260,7 +260,7 @@ footer .in {
     height: 100vh;
     background-image: url(splash_projekter/keaplan.jpg);
     background-size: cover;
-    background-position: 67% 10%;
+    background-position: 20% 10%;
     max-width: none;
 }
 
@@ -269,7 +269,7 @@ footer .in {
     height: 100vh;
     background-image: url(splash_projekter/spil.jpg);
     background-size: cover;
-    background-position: 67% 10%;
+    background-position: 95% 10%;
     max-width: none;
 }
 
@@ -287,7 +287,7 @@ footer .in {
     height: 100vh;
     background-image: url(splash_projekter/pilotvideo.jpg);
     background-size: cover;
-    background-position: 67% 10%;
+    background-position: 45% 10%;
     max-width: none;
 }
 
